@@ -5,3 +5,6 @@ This file parses excel data and averages all cells inside the first row and cell
 # Usage
 
 python parseExcelData.py -f [filename]
+
+optional arguments:
+-o [output filename]: changes output filename from output.xlsx
