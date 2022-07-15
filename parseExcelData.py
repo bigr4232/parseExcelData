@@ -1,4 +1,3 @@
-from audioop import avg
 import pandas as pd
 import os, glob, getopt, sys
 
