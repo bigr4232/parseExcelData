@@ -22,11 +22,6 @@ if sys.argv[1] == "-f" and len(sys.argv) > 2:
             avgDF.iloc[:,1:len(df.columns)] = avgDF.iloc[:,1:len(df.columns)].add(df.iloc[:,1:len(df.columns)])
 
     avgDF.iloc[:,1:len(avgDF.columns)] = avgDF.iloc[:,1:len(avgDF.columns)].div(counter)
-    # print the content
-    print('Content:')
-    print(avgDF)
-    print()
-
     avgDF.to_excel("output.xlsx")
 
 else:
